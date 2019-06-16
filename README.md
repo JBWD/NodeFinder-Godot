@@ -16,7 +16,7 @@ RigidBody _rb = NodeFinder.GetNodeInChildren<RigidBody>(this);
 Example: Finding a child of type "RigidBody" in the nodes Parents
 ```
 //We use 'this' because we getting the parent of the current node
-RigidBody _rb = NodeFinder.GetNodeInChildren<RigidBody>(this.GetParent()); 
+RigidBody _rb = NodeFinder.GetDirectNodeInChildren<RigidBody>(this.GetParent()); 
 ```
 
 
